@@ -1,0 +1,59 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# ================================
+# Logs
+# ================================
+*.log
+logs/
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+*.local
+credentials.json
+secret.key
+
+# ================================
+# MLflow
+# ================================
+mlruns/
+
+# ================================
+# Jupyter / IPython
+# ================================
+.ipynb_checkpoints/
+*.ipynb
